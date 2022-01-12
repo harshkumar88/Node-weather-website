@@ -1,0 +1,105 @@
+
+
+
+body {
+    background-image: url("/img/background.png");
+    backface-visibility: inherit;
+    background-attachment: fixed;;
+    color:#333333;
+    font-family: arial;
+   
+    margin: 0 auto;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    color:whitesmoke;
+    border-top:1px  solid #eeeeee;
+    margin-top: 16px;
+}
+
+.main-content{
+      
+    margin: 0 auto;
+    margin-top: 30px;
+    flex-grow: 1;
+}
+
+
+h1{
+    
+    margin-bottom: 16px;
+}
+header div{
+    position: sticky;
+ width: 100%;
+  top: 0;
+  left: 0;
+}
+header a{
+    color: #888888;
+    margin-right: 16px;
+    text-decoration: none;
+
+}
+header ul{
+    margin-left: 70%;
+}
+
+
+
+@media only screen and ( min-width:1200px){
+    header ul{
+        transition: all 5s linear;
+        margin-left: 70%;
+       
+        
+    }
+    
+}
+@media only screen and ( max-width:1200px){
+    header ul{
+        transition: all 5s linear;
+        margin-left: 50%;
+       
+        
+    }
+    
+}
+@media only screen and ( max-width:900px){
+    header ul{
+        transition: all 5s linear;
+        margin-left: 30%;
+       
+        
+    }
+    
+}
+@media only screen and ( max-width:700px){
+    header ul{
+        transition: all 5s linear;
+        margin-left: 24%;
+       
+        
+    }
+    
+}
+@media screen and ( max-width:500px){
+    header ul{
+        transition: all 5s linear;
+        margin-left: 20%;
+       
+        
+    }
+    
+}
+
+.portrait{
+    
+    width:300px;
+    max-height: 1000px;
+}
+
