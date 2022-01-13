@@ -78,6 +78,29 @@ const getInfo = async(event)=>{
 }
 submitbn.addEventListener('click',getInfo);
 
+const theme=document.getElementById("theme");
 
+theme.addEventListener('click',change);
+var btnchange=0;
+function change(){
+      if(btnchange==0){
+        $("body").addClass("light");
+        $("#first").addClass("color");
+        $("footer #name").addClass("color");
+        $("#theme").html("Dark Mode")
+        $("#theme").addClass("bg")
+        btnchange=1;
+      }
+      else{
+        $("body").removeClass("light");
+        $("#first").removeClass("color");
+        $("footer #name").removeClass("color");
+        $("#theme").html("Light Mode")
+        $("#theme").removeClass("bg")
+        btnchange=0;
+
+      }
+        
+}
 
 
