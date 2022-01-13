@@ -1,5 +1,5 @@
 
-
+ 
 
 body {
     background-image: url("/img/background.png");
@@ -9,11 +9,15 @@ body {
     font-family: arial;
    
     margin: 0 auto;
-    padding: 0 16px;
+    
     display: flex;
     flex-direction: column;
+   
     min-height: 100vh;
 }
+
+
+
 
 footer {
     color:whitesmoke;
@@ -34,8 +38,11 @@ h1{
     margin-bottom: 16px;
 }
 header div{
+    margin-left: 0px;
+    
+    padding: 0px;
     position: sticky;
- width: 100%;
+ 
   top: 0;
   left: 0;
 }
@@ -48,6 +55,7 @@ header a{
 header ul{
     margin-left: 70%;
 }
+
 
 
 
@@ -76,6 +84,9 @@ header ul{
        
         
     }
+    #content{
+        font-size: 30px;
+    }
     
 }
 @media only screen and ( max-width:700px){
@@ -84,6 +95,9 @@ header ul{
         margin-left: 24%;
        
         
+    }
+    #content{
+        font-size: 25px;
     }
     
 }
@@ -94,12 +108,12 @@ header ul{
        
         
     }
+    #content{
+        font-size: 20px;
+    }
     
 }
 
-.portrait{
-    
-    width:300px;
-    max-height: 1000px;
-}
+
+
 

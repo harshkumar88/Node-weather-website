@@ -1,19 +1,13 @@
   
-        body{
-           
-            /* max-width: 500px;
-             max-height: 400px;*/
-             margin: 0 auto;
-             
-         }
+        
          
          .box{
             
             box-shadow: 0 1px 6px rgba(92, 69, 69, 0.12), 0 1px 4px rgba(83, 61, 61, 0.24);
            
+            width: 70%;
             
-            
-             width:300px;
+             max-width:70vw;
              height: auto;
              background-color: darkslateblue;
              margin-left: 10px;
@@ -88,17 +82,12 @@
              display: none;
             
          }
-         .main-content{
-      
-            margin: 0 auto;
-            margin-top: 30px;
-            flex-grow: 1;
-        }
+         
         #main{
            
             margin-top: 5px;
         }
-        #main h1:first-child{
+        #main #first{
             color:white;
         }
          #weathercon{
@@ -113,21 +102,21 @@
          }
          
          .info h2{
-             padding-top: 20px;
-             padding-left: 30px;
+             padding-top: 10%;
+             padding-left: 10%;
          
          }
          .info p{
-             padding-left: 40px;
+             padding-left: 20%;
          }
          .info h1{
-            margin-left: 75px;
+            margin-left: 20%;
             font-size: 50px;
            
          
          }
          .info h4{
-             margin-left: 23px;
+             margin-left: 10%;
          }
 
          #input{
@@ -144,3 +133,13 @@
         footer{
             color: whitesmoke;
         }
+
+        #theme{
+            margin-left: 91%;
+            margin-top: 2px;
+            width: 110px;
+            height: 24px;
+            border-radius: 20px;
+        }
+
+       
